@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url(fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'tiltwarp';
+    src: url(fonts/TiltWarp-Regular-VariableFont_XROT\,YROT.ttf) format('truetype');
+}
+
+body{
+    background-color:#256685;
+    font-family: 'montserrat';
+}
+
+
+header{
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    margin-bottom: 4em;
+    
+}
+.underline{
+    text-decoration: underline;
+}
+
+
+h1{
+    font-family: 'tiltwarp';
+}
+
+#logo_nom{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+#logo{
+    height: 10em;
+}
+
+nav{
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    color: blue;
+    margin-right: 2em;
+}
+
+
+a:visited{
+    color: blue;
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+section{
+    font-size: 1.5em;
+    margin: 4em;
+    background-color:  aliceblue;;
+    border-radius: 25px;
+    padding: 1em;
+}
+
+
+#section1{
+    display: flex;
+    justify-content: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 7em;
+    
+}
+
+.display{
+    display: flex;
+    justify-content: space-around;
+}
+#poster{
+    height: 25em;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+
+#finance{
+    height: 9em;
+    margin-right: 2em;
+}
+
+
+li{
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+#escalier{
+    height: 9em;
+}
+
+
+footer{
+    margin-top: 15em;
+    background-color:darkblue;
+    display: flex;
+    justify-content: space-around;
+    height: 5em;
+    align-items: flex-end;
+   
+}
+
+#footer a{
+     color: aliceblue;
+     margin-bottom: 1em;
+}

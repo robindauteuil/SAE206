@@ -1,0 +1,222 @@
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'tiltwarp';
+    src: url(fonts/TiltWarp-Regular-VariableFont_XROT\,YROT.ttf) format('truetype');
+}
+
+body{
+    background-color:#256685;
+    font-family: 'montserrat';
+    
+}
+
+main{
+    display: block;
+    width: 100%;
+}
+
+
+header{
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    margin-bottom: 4em;
+    
+}
+
+h1{
+    font-family: 'tiltwarp';
+}
+
+#logo_nom{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+#logo{
+    height: 10em;
+}
+
+nav{
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    color: blue;
+    margin-right: 2em;
+}
+
+
+a:visited{
+    color: blue;
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+
+.underline{
+    text-decoration: underline;
+}
+
+video{
+    width: 70%;
+   
+}
+
+#video{display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+
+
+
+#drapeau{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+
+#section2{
+    font-size: 1.5em;
+    background-color: aliceblue;
+    margin: 4em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+table{
+    font-size: 0.75em;
+    border-collapse: collapse;
+ 
+    border-right: 1em;
+}
+
+td,th{
+    text-align: center;
+    border: 3px solid black;
+    
+}
+
+
+caption{
+    
+    font-size: 2em ;
+}
+
+#section3{
+    font-size: 1.5em;
+    
+    background-color: aliceblue;
+    margin: 4em;
+    padding: 1em;
+    border-radius: 15px;
+
+}
+
+#section3Div1{
+    margin-bottom: 3%;
+}
+#graph_tab{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#graphique{
+    margin-top:3% ;
+   width: 40%;
+   margin-right: 7%;
+}
+
+#tab{
+    
+    justify-content: center;
+}
+#captiontab{
+    margin-bottom: 2%;
+
+    font-size: 1.2em;
+}
+
+#section4{
+    font-size: 1.5em;
+    
+    background-color: aliceblue;
+    margin: 4em;
+    padding: 1em;
+    border-radius: 15px;
+}
+#S4L1{
+    display: flex;
+}
+#S4L1Img{
+    display: flex;
+    align-items: center;
+}
+#funambule{
+    height: 10em;
+}
+
+#s5{
+    font-size: 1.5em;
+    background-color: aliceblue;
+    margin: 4em;
+    padding: 1em;
+    border-radius: 15px; 
+}
+
+#s6{
+    font-size: 1.5em;
+    background-color: aliceblue;
+    margin: 4em;
+    padding: 1em;
+    border-radius: 15px; 
+}
+#participe{
+    background-color: blueviolet;
+    position:fixed;
+    
+    
+    top: 85%;
+    right: 2em;
+    border-radius: 15px;
+    padding: 0.5em;
+    
+}
+
+#participe a {
+  color: aliceblue;  
+}
+
+
+
+footer{
+    margin-top: 15em;
+    background-color:darkblue;
+    display: flex;
+    justify-content: space-around;
+    height: 5em;
+    align-items: flex-end;
+   
+}
+
+#footer a{
+     color: aliceblue;
+     margin-bottom: 1em;
+}

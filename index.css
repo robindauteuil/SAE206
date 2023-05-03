@@ -1,0 +1,247 @@
+
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'tiltwarp';
+    src: url(fonts/TiltWarp-Regular-VariableFont_XROT\,YROT.ttf) format('truetype');
+}
+
+body{
+    background-color:#256685;
+    font-family: 'montserrat';
+}
+
+
+header{
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    margin-bottom: 4em;
+    
+}
+.underline{
+    text-decoration: underline;
+}
+
+
+h1{
+    font-family: 'tiltwarp';
+}
+#logo_nom{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+#logo{
+    height: 10em;
+}
+
+nav{
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    color: blue;
+    margin-right: 2em;
+}
+
+
+a:visited{
+    color: blue;
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blueviolet;
+}
+#antivirus{
+    height: 10em;
+    margin-right: 3em;
+    flex: 1;
+}
+
+#section1{
+    
+    align-items: center;
+    background-color: aliceblue;
+    margin: 4em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+#section1 h2{
+    font-size: 2em;
+}
+
+
+#article1{display: flex;
+    justify-content: center;
+    margin-right: 4%;
+    font-size: 1.75em;
+    padding-bottom: 2%;
+    align-items: center;
+}
+
+
+
+
+
+#section2{
+    font-size: 1.2em;
+  
+    background-color: aliceblue;;
+    margin: 4em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+#section2Line1{
+    display: flex;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+
+
+#imgcenter{
+    display: flex;
+    align-items: center;
+}
+#section2Line1art1{
+    display: flex;
+    margin-right: 2em;
+    
+    padding-top: 2em;
+    flex: 1;
+}
+
+
+#imgArbre{
+    height: 8em;
+    margin: 2em;
+
+}
+
+#fusee{
+    height: 8em;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.section2Line1art2{
+     display: flex;
+    padding-top: 2em;
+    flex: 1;
+  
+    margin-right: 2em;
+   
+}
+
+
+
+
+#loupe{
+    height: 7em;
+    margin-right: 1em;
+   
+}
+#livre{
+    height: 8em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 3%;
+}
+
+
+#section2line2{
+    display: flex;
+    align-items: flex-start;
+}
+
+#section2Line2art1{
+    padding-top: 2em;
+    display: flex;
+    flex: 1;
+    margin-right: 2em;
+}
+#section2Line2art2{
+    padding-top: 2em;
+    display: flex;
+    flex: 1;
+    margin-right: 2em;
+}
+
+#tirelire{
+    height: 10rem;
+    margin-right: 2em;
+}
+
+
+#section3{
+    background-color: aliceblue;
+    margin: 4em;
+    padding: 1em;
+    border-radius: 15px;
+    font-size: 1.25em
+}
+#section3art1{
+    display: flex;
+    margin: 2%;
+    padding: 2%;
+}
+
+#section1_2{
+    background-color: aliceblue;
+    margin: 4em;
+    padding: 1em;
+    border-radius: 15px;
+    font-size: 1.25em;
+    
+}
+
+#s4{
+    background-color: aliceblue;
+    margin: 4em;
+    padding: 1em;
+    border-radius: 15px;
+    font-size: 1.25em
+}
+
+#equipe img{
+    height: 10rem;
+
+}
+
+#equipe{
+    display: flex;
+}
+
+#minus{
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 15em;
+    background-color:darkblue;
+    display: flex;
+    justify-content: space-around;
+    height: 5em;
+    align-items: flex-end;
+   
+}
+
+#footer a{
+     color: aliceblue;
+     margin-bottom: 1em;
+}
